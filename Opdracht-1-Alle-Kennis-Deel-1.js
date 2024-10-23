@@ -5,3 +5,11 @@
 //   }
 
 // Herschrijf bovenstaande code met een while loop i.p.v. een for loop.
+
+let totaal = 0;
+let i = 0;
+while (i < 10) {
+  totaal += i;
+  console.log("totaal is nu: ", totaal);
+  i++;
+}
